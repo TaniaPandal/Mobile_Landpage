@@ -1,0 +1,28 @@
+.fluidAnimation{
+    background-image: linear-gradient(45deg,#E32372,#E56D4E,#3054A4,#F7DACF,#FBF5F1,#E75E4B);
+    border-radius: 23%;
+    height: 500px;
+    width: 250px;
+    margin-left: 700px;
+    position: absolute; 
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+     animation: color-change-2x 2s linear infinite alternate both;
+}
+
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background: #E32372;
+    }
+    100% {
+      background: #F7DACF;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #3054A4;
+    }
+    100% {
+      background:#E56D4E;
+    }
+  }
+  

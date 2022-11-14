@@ -51,10 +51,34 @@ h1{
 .fluidPhone{
     position:absolute;
     margin-left: 700px;
-    background-color: #2937F0;
-    border-radius: 23%;
-  
 }
+  
+.fluidAnimation{
+    border-radius: 23%;
+    height: 500px;
+    width: 250px;
+    margin-left: 700px;
+    position: absolute; 
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+     animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+    0% {
+      background: #E32372;
+    }
+    100% {
+      background: #F7DACF;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #3054A4;
+    }
+    100% {
+      background:#E56D4E;
+    }
+  }
 
 .gradientCircle{
     background-image: linear-gradient(to right,#5E2AEA, #9F1AE2);
@@ -64,7 +88,5 @@ h1{
     position: absolute;
     margin-left: 620px;
     margin-top: 50px;
-    border-radius: 100%;
-    
-  
+    border-radius: 100%;     
 }
