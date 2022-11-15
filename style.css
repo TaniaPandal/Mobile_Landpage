@@ -93,6 +93,7 @@ h1{
 
 .deanVillage{
     position: absolute;
+    margin-bottom: 100px;
 }
 .textTwo{
     position: absolute;
@@ -130,8 +131,26 @@ h1{
     }
   }
   
-
 .btn-outline-primary{
     color:#3054A4;
     border-color: white;
+}
+
+.iconAspa1{
+    margin-right: 60px;
+    width: 100px;
+    height: auto;
+}
+
+.imgPart2{
+    margin: 1000px 100px 0px 200px;
+    
+}
+
+.iphoneIcone{
+  margin-top: 1000px;
+}
+
+.textThree{
+  margin-top: 1000px;
 }
