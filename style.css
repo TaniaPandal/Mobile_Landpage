@@ -24,6 +24,11 @@ margin-bottom: 100px;
     margin-right: 200px;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #fff;
+  transition: background-color 200ms linear;
+}
+
 .feedIcon{
     margin-right: 8px;
 }
@@ -81,7 +86,7 @@ h1{
   }
 
 .gradientCircle{
-    background-image: linear-gradient(to right,#5E2AEA, #9F1AE2);
+    background-image: linear-gradient(to bottom,#5E2AEA, #9F1AE2);
     padding: 100px; 
     height: 400px;
     width: 400px;
@@ -143,14 +148,47 @@ h1{
 }
 
 .imgPart2{
-    margin: 1000px 100px 0px 200px;
-    
+  margin: 1000px 80px 0px 200px;
+  position: relative;   
 }
 
-.iphoneIcone{
+.fluidAnimation2{
+  position:absolute;
   margin-top: 1000px;
+  border-radius: 19%;
+  height: 440px;
+  width: 220px;
+  margin-left: 330px;
+  overflow: hidden;
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+ 0% {
+   background: #E32372;
+ }
+ 100% {
+   background: #F7DACF;
+ }
+}
+@keyframes color-change-2x {
+ 0% {
+   background: #3054A4;
+ }
+ 100% {
+   background:#E56D4E;
+ }
 }
 
 .textThree{
   margin-top: 1000px;
+  padding-right: 100px;
+}
+
+.col2{
+  margin-left: 80px ;
+}
+.gradIcon{
+  color:#5E2AEA;
 }
